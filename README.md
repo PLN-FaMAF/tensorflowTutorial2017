@@ -77,25 +77,27 @@ dataset to use.
 
 ### Dataset Preprocessing (optional)
 
-This part is covered by the [Part 1: Data
-Preprocessing](https://github.com/PLN-FaMAF/tensorflowTutorial2017/blob/master/tensorflow_tutorial_1.ipynb)
+This part is covered by the [Part 1: Data Preprocessing](https://github.com/PLN-FaMAF/tensorflowTutorial2017/blob/master/tensorflow_tutorial_1.ipynb)
 notebook. It explains the dataset we are using to experiment with TensorFlow
 and how we process it to have the final version ready.
 
-### Basic concepts of TensorFlow
+### The Basics of Tensorflow
 
-We will cover the implementation of a linear model to exemplify the different
+This part is covered by the [Part 2: The basics of Tensorflow](https://github.com/PLN-FaMAF/tensorflowTutorial2017/blob/master/tensorflow_tutorial_2.ipynb) notebook.
+It explains the implementation of a linear model to exemplify the different
 components of the TensorFlow pipeline. This includes compilation of models and
 how TensorFlow is executing your code.
 
-### Advanced concepts of TensorFlow
+### Advanced Tensorflow
 
-We will extend the linear model previously built into a deep neural network by
+This part is covered by the [Part 3: Advanced Tensorflow](https://github.com/PLN-FaMAF/tensorflowTutorial2017/blob/master/tensorflow_tutorial_3.ipynb) notebook.
+In this we will extend the linear model previously built into a deep neural network by
 using the Layers module. During this section, we will also describe
 the possible problems of training big models and how to overcome them.
 
 ### The benefits of TensorBoard
 
+This part is covered by the [Part 4: The benefits of Tensorboard](https://github.com/PLN-FaMAF/tensorflowTutorial2017/blob/master/tensorflow_tutorial_4.ipynb) notebook.
 We will present the TensorBoard interface and how we can use it to make the
 experimentation process easier by collecting and visualizing the results.
 
