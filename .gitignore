@@ -102,3 +102,6 @@ ENV/
 
 # resources directory
 resources/
+
+# vim
+.*.sw[po]

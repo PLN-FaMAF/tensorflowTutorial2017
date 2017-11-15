@@ -1,20 +1,19 @@
-# Train and visualize a model in TensorFlow
+# Train and visualize a model in Tensorflow
 
 ## Overview
 
-This [PyData San Luis Argentina
-2017](https://pydata.org/sanluis2017/schedule/presentation/1/) tutorial will
-focus on practical aspects of implementing and training deep learning models.
-We will follow, step by step, the implementation of linear and nonlinear models
-with TensorFlow, focusing on the impact of tuning hyperparameters and
-architectures. To keep track of results we will use the visualization tool
-TensorBoard and show its functionalities.
+This [PyData San Luis Argentina 2017](https://pydata.org/sanluis2017/) tutorial
+will focus on practical aspects of implementing and training deep learning
+models.  We will follow, step by step, the implementation of linear and
+nonlinear models with Tensorflow, focusing on the impact of tuning
+hyperparameters and architectures. To keep track of results we will use the
+visualization tool Tensorboard and show its functionalities.
 
 ### Objective
 
 The goal of this tutorial is for you to learn how to build models in
-TensorFlow. You will apply them to a standard document classification dataset,
-and keep track of the experiments' performance with TensorBoard, a
+Tensorflow. You will apply them to a standard document classification dataset,
+and keep track of the experiments' performance with Tensorboard, a
 visualization tool. 
 
 ### Who is this course aimed to?
@@ -37,11 +36,16 @@ Configuration**](https://github.com/PLN-FaMAF/tensorflowTutorial2017/blob/master
 requirements needed to configure the environment. It should be followed before
 taking the tutorial in the conference.
 
+### Course slides
+
+The slides shown in the tutorial presentation are available [through this
+link](https://docs.google.com/presentation/d/1IoIN5gJPFbvDv_IaIaLFwd6Y9RTVNAxz_5DIhLFZ4bA/edit?usp=sharing).
+
 ### Software
 
 The software packages we are using are Python 3.5 (obtained through conda)
 along Numpy, Scipy, Jupyter, and the
-[TensorFlow](https://www.tensorflow.org/versions/r1.3/install/) (version 1.3)
+[Tensorflow](https://www.tensorflow.org/versions/r1.3/install/) (version 1.3)
 libraries. 
 
 Please refer to the
@@ -75,31 +79,37 @@ Configuration](https://github.com/PLN-FaMAF/tensorflowTutorial2017/blob/master/t
 notebook. It has the instruction to configure the environment and download the
 dataset to use.
 
-### Dataset Preprocessing (optional)
+### Dataset preprocessing (optional)
 
-This part is covered by the [Part 1: Data Preprocessing](https://github.com/PLN-FaMAF/tensorflowTutorial2017/blob/master/tensorflow_tutorial_1.ipynb)
-notebook. It explains the dataset we are using to experiment with TensorFlow
+This part is covered by the [Part 1: Dataset
+Preprocessing](https://github.com/PLN-FaMAF/tensorflowTutorial2017/blob/master/tensorflow_tutorial_1.ipynb)
+notebook. It explains the dataset we are using to experiment with Tensorflow
 and how we process it to have the final version ready.
 
-### The Basics of Tensorflow
+### Basic concepts of Tensorflow
 
-This part is covered by the [Part 2: The basics of Tensorflow](https://github.com/PLN-FaMAF/tensorflowTutorial2017/blob/master/tensorflow_tutorial_2.ipynb) notebook.
-It explains the implementation of a linear model to exemplify the different
-components of the TensorFlow pipeline. This includes compilation of models and
-how TensorFlow is executing your code.
+This part is covered by the [Part 2: The Basics of
+Tensorflow](https://github.com/PLN-FaMAF/tensorflowTutorial2017/blob/master/tensorflow_tutorial_2.ipynb)
+notebook. It explains the implementation of a linear model using a Tensorflow
+estimator to exemplify the different components of the Tensorflow pipeline.
+This includes compilation of models and how Tensorflow is executing your code.
 
-### Advanced Tensorflow
+### Advanced concepts of Tensorflow
 
-This part is covered by the [Part 3: Advanced Tensorflow](https://github.com/PLN-FaMAF/tensorflowTutorial2017/blob/master/tensorflow_tutorial_3.ipynb) notebook.
-In this we will extend the linear model previously built into a deep neural network by
-using the Layers module. During this section, we will also describe
-the possible problems of training big models and how to overcome them.
+This part is covered by the [Part 3: Advanced
+Tensorflow](https://github.com/PLN-FaMAF/tensorflowTutorial2017/blob/master/tensorflow_tutorial_3.ipynb)
+notebook. In this we will extend the linear model previously built into a
+multilayer perceptron using a custom built estimator (instead of the default
+provided by Tensorflow) using layers. We will cover the graph of Tensorflow and
+how to visualize it with Tensorboard.
 
-### The benefits of TensorBoard
+### The benefits of Tensorboard
 
-This part is covered by the [Part 4: The benefits of Tensorboard](https://github.com/PLN-FaMAF/tensorflowTutorial2017/blob/master/tensorflow_tutorial_4.ipynb) notebook.
-We will present the TensorBoard interface and how we can use it to make the
-experimentation process easier by collecting and visualizing the results.
+This part is covered by the [Part 4: Inspecting the
+model](https://github.com/PLN-FaMAF/tensorflowTutorial2017/blob/master/tensorflow_tutorial_4.ipynb)
+notebook.  We will present the Tensorboard interface and how we can use it to
+make the experimentation process easier by collecting and visualizing the
+results.
 
 ---
 
