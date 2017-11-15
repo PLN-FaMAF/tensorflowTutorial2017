@@ -111,6 +111,13 @@ notebook.  We will present the Tensorboard interface and how we can use it to
 make the experimentation process easier by collecting and visualizing the
 results.
 
+### Tensorboard for embeddings (bonus)
+
+This final part is covered by the [Part 5: Document
+embeddings](https://github.com/PLN-FaMAF/tensorflowTutorial2017/blob/master/tensorflow_tutorial_5.ipynb)
+notebook. It explains how to use Tensorboard to visualize embeddings of
+different kinds (in this case documents).
+
 ---
 
 ## About the authors
