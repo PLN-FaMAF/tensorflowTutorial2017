@@ -38,7 +38,7 @@ taking the tutorial in the conference.
 
 ### Course slides
 
-The slides shown in the tutorial presentation are available [through this
+The slides shown in the tutorial presentation are available [using this
 link](https://docs.google.com/presentation/d/1IoIN5gJPFbvDv_IaIaLFwd6Y9RTVNAxz_5DIhLFZ4bA/edit?usp=sharing).
 
 ### Software
