@@ -2,12 +2,11 @@
 
 ## Overview
 
-This [PyData San Luis Argentina 2017](https://pydata.org/sanluis2017/) tutorial
-will focus on practical aspects of implementing and training deep learning
-models.  We will follow, step by step, the implementation of linear and
-nonlinear models with Tensorflow, focusing on the impact of tuning
-hyperparameters and architectures. To keep track of results we will use the
-visualization tool Tensorboard and show its functionalities.
+This TensorFlow tutorial focuses on practical aspects of implementing and
+training deep learning models.  We will follow, step by step, the
+implementation of linear and nonlinear models with Tensorflow, focusing on the
+impact of tuning hyperparameters and architectures. To keep track of results we
+will use the visualization tool Tensorboard and show its functionalities.
 
 ### Objective
 
